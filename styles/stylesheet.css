@@ -1,0 +1,120 @@
+*{
+  box-sizing: border-box;
+  overflow: auto;
+}
+body {
+  overflow: auto;
+  color:White;
+  background-image:url('http://yodobi.com/4k-Wallpapers/black-background-Is-4K-Wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  font-family: 'Indie Flower', cursive;
+  }
+.container {
+  clear: both;
+    overflow: auto;
+    max-width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+a {
+    color: rgb(216, 120, 23);
+    font-family: 'Indie Flower', cursive;
+    text-decoration: none;
+  }
+a:hover {
+    font-weight: bold;
+  }
+header {
+  display: flex;
+  justify-content: center;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  transition: font-size 4s 1s;
+}
+
+nav:hover {
+  font-size: 36px;
+}
+h1 {
+  font-size:70px;
+}
+h2 {
+  color: white;
+}
+section {
+  overflow: auto;
+  margin-left: 5rem;
+}
+ .project-list {
+   clear: both;
+  overflow: auto;
+  color: white;
+  background-color: lightblue;
+  max-width: 45%;
+  border: 1px solid pink;
+}
+#head-shot {
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border:1px solid white;
+  border-radius: 70%;
+}
+#contacts {
+  text-align: center;
+  transition: font-size 4s 1s;
+}
+#contacts:hover {
+  font-size: 36px;
+}
+footer {
+  margin-left: 5rem;
+  clear:both;
+  font-style: italic;
+  font-size: 13px;
+}
+
+.card {
+  box-shadow: 8px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 30%;
+  height: auto;
+  border: 1px solid pink;
+  margin-right: 4rem;
+  text-align: center;
+  font-family: 'PT Sans', cursive;
+  background-color: lightblue;
+  float: right;
+}
+
+p:nth-child(4) {
+  color: purple;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
