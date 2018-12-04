@@ -1,40 +1,37 @@
 *{
   box-sizing: border-box;
   overflow: auto;
+  font-family: Arial, cursive;
+
 }
 body {
   overflow: auto;
   background-color: #03a3df;
   color: white;
-  background-repeat: no-repeat;
-  background-attachment:fixed;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
-  font-family: Arial, cursive;
+  font-weight:normal;
   }
 
 header {
   font-size: 40px;
 }
-.header-logo {
 
-}
 nav {
   display: flex;
   justify-content:flex-end;
   font-size: 18px;
   transition: font-size 4s 1s;
 }
-
-nav:hover {
-  font-size: 36px;
-}
 h1 {
   font-size:40px;
+  font-weight: bold;
 }
 h2 {
-  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+h3 {
+  font-size: 17px;
+  font-weight: bold;
 }
 section {
   overflow: auto;
