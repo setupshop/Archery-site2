@@ -39,7 +39,34 @@ section {
 }
 
 footer {
-background-image: url('/web/images/footerimage.jpg');
+background-image: url('/web/images/footerImage.jpg');
 height: 100%;
 width: 100%;
+}
+
+fieldset {
+  display:inline-block;
+  background-color: lightblue;
+  color: black;
+}
+.form-inline label {
+  margin: 5px 10px 5px 0;
+}
+input[type=submit] {
+       background-color: blue;
+       color: white;
+     }
+input[type=submit]:active {
+       border-color: white;
+     }
+input {
+     width: 150px;
+     margin: 0;
+     box-sizing:content-box;
+     display:block
+     }
+label {
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
