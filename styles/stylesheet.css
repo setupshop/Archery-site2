@@ -6,8 +6,8 @@
 }
 body {
   overflow: auto;
-  background-color: #03a3df;
-  color: white;
+  background-color: black;
+  color: gold;
   font-weight:normal;
   }
 
@@ -39,7 +39,7 @@ section {
 }
 
 footer {
-background-image: url('/web/images/footerImage.jpg');
+background-image: url("../images/footerImage.jpg");
 height: 100%;
 width: 100%;
 }
